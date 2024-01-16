@@ -7,24 +7,28 @@ class LocationWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      mainAxisSize: MainAxisSize.min,
+    return const Column(
       children: [
-        Icon(
-          Icons.location_pin,
-          size: 24.0,
-          color: Colors.pink,
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              Icons.location_pin,
+              size: 24.0,
+              color: Colors.pink,
+            ),
+            Text(
+              "Bang Bua Thong , Nonthaburi",
+              style: TextStyle(
+                  fontFamily: 'Poppins-Light.ttf',
+                  fontSize: 16.0,
+                  color: Colors.black,
+                  fontWeight: FontWeight.w400,
+                  decoration: TextDecoration.none),
+            ),
+          ],
         ),
-        Text(
-          "Bang Bua Thong , Nonthaburi",
-          style: TextStyle(
-              fontFamily: 'Poppins-Light.ttf',
-              fontSize: 16.0,
-              color: Colors.white,
-              fontWeight: FontWeight.w300,
-              decoration: TextDecoration.none),
-        )
       ],
     );
   }

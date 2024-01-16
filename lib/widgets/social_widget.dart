@@ -16,11 +16,11 @@ class SocialWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              "36",
+              "0",
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),
@@ -30,12 +30,11 @@ class SocialWidget extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),
             ),
-            
           ],
         ),
         Column(
@@ -43,11 +42,11 @@ class SocialWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              "36",
+              "16",
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),
@@ -57,14 +56,14 @@ class SocialWidget extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),
             ),
           ],
-        )
-        ,Column(
+        ),
+        Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
           children: [
@@ -73,7 +72,7 @@ class SocialWidget extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),
@@ -83,7 +82,7 @@ class SocialWidget extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Poppins-Light.ttf',
                 fontSize: 18.0,
-                color: Colors.white,
+                color: Colors.black,
                 fontWeight: FontWeight.w500,
                 decoration: TextDecoration.none,
               ),

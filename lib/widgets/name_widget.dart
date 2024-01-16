@@ -12,7 +12,7 @@ class NameWidget extends StatelessWidget {
       style: TextStyle(
           fontFamily: 'Poppins-Light.ttf',
           fontSize: 24.0,
-          color: Colors.white,
+          color: Colors.black,
           fontWeight: FontWeight.w500,
           decoration: TextDecoration.none),
     );

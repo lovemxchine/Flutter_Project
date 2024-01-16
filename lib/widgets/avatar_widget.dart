@@ -6,7 +6,7 @@ class AvatarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const CircleAvatar(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.grey,
       radius: 60.0,
       child: CircleAvatar(
         backgroundImage: AssetImage('assets/images/profiles.jpg'),
